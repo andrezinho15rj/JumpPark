@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.JumpPark" parent="Base.Theme.JumpPark" />
+
+    <style name="Theme.JumpPark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.JumpPark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.JumpPark.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -1,0 +1,5 @@
+package API
+
+class WeatherData {
+
+}

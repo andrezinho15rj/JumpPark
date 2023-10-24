@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import retrofit2.Call;
+import retrofit2.http.GET;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void bt_entrar(View view) {
-        Intent intent = new Intent(this, Principal.class);
+        Intent intent = new Intent(this, MenuPrincipal.class);
         startActivity(intent);
     }
+    
 }
