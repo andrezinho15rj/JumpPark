@@ -18,13 +18,13 @@
             android:exported="false" />
 
         <activity
-            android:name=".MenuPrincipal"
+            android:name=".TelaInicial"
             android:exported="false"
             android:label="@string/title_activity_menu_principal"
             android:theme="@style/Theme.JumpPark.NoActionBar" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

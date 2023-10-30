@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
     <TextView
         android:id="@+id/textView2"
@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/jump" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/etUsername"
         android:layout_width="366dp"
         android:layout_height="51dp"
         android:ems="10"
@@ -43,12 +43,11 @@
         app:layout_constraintVertical_bias="0.373" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="272dp"
         android:layout_height="89dp"
         android:text="ENTRAR"
         android:textColorHint="#FFFFFF"
-        android:onClick="bt_entrar"
         android:backgroundTint="#006400"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +57,7 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etPassword"
         android:layout_width="365dp"
         android:layout_height="48dp"
         android:ems="10"
